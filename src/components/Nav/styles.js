@@ -4,7 +4,7 @@ export const NavContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 35px auto;
+  margin: 35px auto 0 auto;
   font-family: 'Poppins', sans-serif;
   width: 60%;
   height: 70px;
