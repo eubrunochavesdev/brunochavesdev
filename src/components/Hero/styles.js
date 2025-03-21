@@ -4,7 +4,6 @@ import styled from "styled-components";
 const HeroContainer = styled.section`
   width: 100vw;
   height: 800px;
-  border: 3px solid #0095e5;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -68,7 +67,7 @@ const HeroContainer = styled.section`
     transition: 0.3s ease;
 
     &:hover {
-      background-color: #0095e5;
+      background-color:rgb(229, 0, 0);
       color: white;
     }
     
