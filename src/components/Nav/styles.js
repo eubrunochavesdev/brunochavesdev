@@ -2,23 +2,35 @@ import styled from "styled-components";
 
 export const NavContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 35px auto;
   font-family: 'Poppins', sans-serif;
-  width: 80%;
-  height: 90px;
+  width: 60%;
+  height: 70px;
   border: 3px solid #0095E5;
   border-radius: 75px;
   padding: 0 20px;
+
+    @media (max-width: 770px) {
+      width: 80%;
+      margin: 20px auto;
+      display: flex;
+      justify-content: space-around;
+    }
+
   
   img {
-    height: 35px;
+    height: 30px;
     width: auto;
+    padding: 10px;
 
-    @media (max-width: 425px) {
-      height: 25px; /* Reduz a logo no mobile */
+    @media (max-width: 1024px) {
+      height: 17px;
+      width: auto;
     }
+      
+
   }
 `;
 
@@ -30,9 +42,10 @@ export const MenuButton = styled.button`
   border: none;
   cursor: pointer;
   color: #0095E5;
+  margin-left: auto;
 
-  @media (max-width: 425px) {
-    display: block;
+  @media (max-width: 1024px) {
+    display: flex;
   }
 `;
 
@@ -44,7 +57,7 @@ export const NavMenu = styled.nav`
     margin: 0;
     display: flex;
     
-    @media (max-width: 425px) {
+    @media (max-width: 1024px) {
       flex-direction: column;
       position: absolute;
       top: 90px;
@@ -62,16 +75,19 @@ export const NavMenu = styled.nav`
     margin-right: 20px;
     font-size: 1.5rem;
     
-    @media (max-width: 425px) {
+    @media (max-width: 1024px) {
       margin: 15px 0;
       text-align: center;
     }
+
+    
   }
 
   a {
     text-decoration: none;
     color: inherit;
     position: relative;
+    font-size: 20px;
 
     &::after {
       content: '';
@@ -90,5 +106,7 @@ export const NavMenu = styled.nav`
       left: 0;
       background: #0095E5;
     }
+
+    
   }
 `;
