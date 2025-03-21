@@ -67,7 +67,7 @@ const HeroContainer = styled.section`
     transition: 0.3s ease;
 
     &:hover {
-      background-color:rgb(229, 0, 0);
+      background-color: #0095e5;
       color: white;
     }
     
