@@ -1,0 +1,22 @@
+
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('/fonts/MonumentExtended-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Monument Extended';
+    src: url('/fonts/MonumentExtended-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  body {
+    width: 100vw; /* Define a largura como 100% da viewport width */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total dos elementos */
+  }
