@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 const HeroContainer = styled.section`
-  width: 100vw;
+  width: 100%;
   height: 800px;
   display: flex;
   justify-content: space-around;

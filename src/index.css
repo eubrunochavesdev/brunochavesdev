@@ -20,4 +20,5 @@
     padding: 0; /* Remove o padding padrão */
     box-sizing: border-box; /* Inclui padding e border no tamanho total dos elementos */
     background-color: #F7F6F2;
+    overflow-x: hidden;
   }

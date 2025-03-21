@@ -22,7 +22,7 @@ function Hero() {
           <a href="https://www.github.com/eubrunochavesdev" target="_blank" rel="noopener noreferrer">
           Github
           </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/brunochavess/" target="_blank" rel="noopener noreferrer">
           Linkedin
           </a>
         </div>
